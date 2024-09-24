@@ -1,0 +1,10 @@
+.OO {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    gap: 3rem; /* Optional: adds space between the cards */
+    background-image: url('./images/pexels-paduret-1193743.jpg' );
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    /* background-color: violet; */
+}

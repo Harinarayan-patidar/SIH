@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.faculty_card{
+  display: flex;
+  
+  max-width: 200px;
+  min-height: 200px;
+  background-color: aquamarine;
+
+}
+
+
+
+.faculty_card span {
+  margin-bottom: 0.5rem; /* Spacing between each detail */
+}
+
+.cards_container {
+    display: flex;            /* Use flexbox */
+    flex-wrap: wrap;         /* Allow wrapping of items to the next line */
+    justify-content: space-between; /* Space between items */
+}
+
+.cards_categories {
+    flex: 1 1 calc(25% - 10px); /* Each card takes up 25% of the row, minus some margin */
+    margin: 5px;               /* Margin around each card */
+    box-sizing: border-box;     /* Include padding and border in element's total width and height */
+}
+
+.branch_card {
+    background-color: #f9f9f9; /* Light background for each card */
+    border: 0.5px solid #ddd;    /* Border around the card */
+    border-radius: 0.5rem;     /* Rounded corners */
+    padding: 0.1rem;             /* Inner spacing */
+    transition: transform 0.2s; /* Smooth hover effect */
+}

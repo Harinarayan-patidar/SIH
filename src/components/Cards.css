@@ -1,0 +1,122 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1rem;
+    margin: 16px;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1);
+
+ backdrop-filter: blur(30px);
+ box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+
+    max-width: 200px;
+    min-height: 320px;
+    transition: all linear 1s ;
+    perspective: 100000px;
+}
+
+
+
+
+
+.card h2 {
+    font-size: 1.2rem;
+    color: #ff0000;
+    margin-bottom: 12px;
+    padding-top: 0;
+    font-weight: bolder;
+}
+
+.branch_card {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    padding-top: 15px;
+    align-items: center;
+
+}
+
+.branch_card p {
+    margin: 0;
+    color: #fffefe;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #060505;
+    font-weight: 500;
+}
+
+.hhh{
+    display: flex;
+    flex-direction: row;
+}
+.cards_container {
+    display: flex;            /* Use flexbox */
+    flex-wrap: wrap;         /* Allow wrapping of items to the next line */
+    justify-content: space-between; /* Space between items */
+}
+
+.cards_categories {
+    flex: 1 1 calc(25% - 10px); /* Each card takes up 25% of the row, minus some margin */
+    margin: 5px;               /* Margin around each card */
+    box-sizing: border-box;     /* Include padding and border in element's total width and height */
+    display: flex;
+}
+
+.branch_card {
+    background-color: #e16f6f; /* Light background for each card */
+    border: 2px solid #000000;    /* Border around the card */
+    border-radius: 0.5rem;     /* Rounded corners */
+    padding: 1rem;             /* Inner spacing */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.cards_container {
+    display: flex;            /* Use flexbox */
+    flex-wrap: wrap;         /* Allow wrapping of items to the next line */
+    justify-content: space-between; /* Space between items */
+}
+
+.cards_categories {
+    flex: 1 1 calc(25% - 10px); /* Each card takes up 25% of the row, minus some margin */
+    margin: 5px;               /* Margin around each card */
+    box-sizing: border-box;     /* Include padding and border in element's total width and height */
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.branch_card {
+    background-color: transparent;
+    border: 1px solid #ddd;    /* Border around the card */
+    border-radius: 0.5rem;     /* Rounded corners */
+    padding: 1rem;             /* Inner spacing */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.btn{
+    margin-top: 1rem;
+    color: yellow;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all linear 0.1s;
+    padding: 0.5rem;
+}
+
+.btn:hover{
+    scale: 1.1;
+}
+
+
+.kkk{
+    display: flex;
+
+}
+
