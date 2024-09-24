@@ -10,7 +10,8 @@ const FacultyDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const resp = await fetch(`https://restartsihproject.onrender.com/api/getallFaculty`);
+        const resp = await fetch(`
+          https://restartsihproject.onrender.com/api/getallFaculty`);
         if (!resp.ok) {
           throw new Error('Network response was not ok');
         }
